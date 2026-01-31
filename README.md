@@ -14,7 +14,7 @@
 - 🗡️ **[blade-code](https://github.com/echoVic/blade-code)** – AI-powered CLI coding agent
 - 🎯 **[boss-skill](https://github.com/echoVic/boss-skill)** – BMAD multi-agent orchestration framework
 - 🖥️ **[blade-cowork](https://github.com/echoVic/blade-cowork-releases)** – Desktop app for collaborative coding
-- 🔀 **[d3-flow-editor](https://github.com/echoVic/d3-flow-editor)** – SVG-based flow editor built with D3.js
+- 🔀 **[spec-flow](https://github.com/echoVic/spec-flow)** – Spec-driven development workflow
 
 ## Connect
 
