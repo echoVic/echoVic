@@ -12,6 +12,7 @@
 ## Current Projects
 
 - 🗡️ **[blade-code](https://github.com/echoVic/blade-code)** – AI-powered CLI coding agent
+- ⚔️ **[blade-agent-runtime](https://github.com/echoVic/blade-agent-runtime)** – Safe execution runtime for AI coding agents
 - 🎯 **[boss-skill](https://github.com/echoVic/boss-skill)** – BMAD multi-agent orchestration framework
 - 🖥️ **[blade-cowork](https://github.com/echoVic/blade-cowork-releases)** – Desktop app for collaborative coding
 - 🔀 **[spec-flow](https://github.com/echoVic/spec-flow)** – Spec-driven development workflow
