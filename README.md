@@ -19,6 +19,10 @@
 - 🖥️ **[blade-cowork](https://github.com/echoVic/blade-cowork-releases)** – Desktop app for collaborative coding
 - 🔀 **[spec-flow](https://github.com/echoVic/spec-flow)** – Spec-driven development workflow
 
+## Open Source SDK
+
+- 📦 **[blade-agent-sdk](https://github.com/echoVic/blade-agent-sdk)** – A flexible, extensible TypeScript SDK for building AI coding agents
+
 ## Connect
 
 [![Website](https://img.shields.io/badge/-echovic.com-000000?style=flat-square&logo=safari&logoColor=white)](https://echovic.com)
