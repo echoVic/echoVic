@@ -26,6 +26,7 @@ A modular toolkit for building, running, and shipping AI coding agents.
 
 | Project | Description |
 |---------|-------------|
+| [stop-protocol](https://github.com/echoVic/stop-protocol) | STOP — Agent Skill observability protocol (Manifest + Trace + Assertions + Levels) |
 | [boss-skill](https://github.com/echoVic/boss-skill) | BMAD multi-agent orchestration framework |
 | [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow |
 | [learning-system-skill](https://github.com/echoVic/learning-system-skill) | AI learning system — knowledge graphs, deep-dive notes, and weekly reviews |
@@ -34,18 +35,16 @@ A modular toolkit for building, running, and shipping AI coding agents.
 
 Active contributor to the AI agent ecosystem:
 
-- **[OpenClaw](https://github.com/openclaw/openclaw)** — 30+ PRs (bug fixes, cron system, compaction, channel plugins)
-- **[Goose](https://github.com/block/goose)** — Desktop GUI crash fix (merged ✅)
-- **[Cline](https://github.com/cline/cline)** — Checkpoint system & favorite state fixes
-- **[Qwen-Code](https://github.com/QwenLM/qwen-code)** — MCP annotations, PDF reading, plan mode fixes
-- **[OpenCode](https://github.com/anomalyco/opencode)** — SDK path encoding, PR handling, LSP retry, schema sanitization
+- **[OpenClaw](https://github.com/openclaw/openclaw)** — 10 merged PRs, 60+ submitted (cron system, compaction, channel plugins, billing, web search)
+- **[Goose](https://github.com/block/goose)** — MCP tool call crash fix (merged ✅)
 - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — OAuth MCP server discovery fix
+- **[awesome-code-agents](https://github.com/sorrycc/awesome-code-agents)** — Added Qwen Code entry
 
 ## ✍️ Writing
 
 I write about agent architecture, tool design, and developer experience on [echovic.com](https://echovic.com) and [掘金](https://juejin.cn/user/echoVic).
 
-Recent topics: MCP client implementation, agent security models, multi-model architecture, vibe coding.
+Recent topics: MCP client implementation, agent security models, multi-model architecture, STOP observability protocol, vibe coding.
 
 ## Connect
 
