@@ -35,7 +35,10 @@ A modular toolkit for building, running, and shipping AI coding agents.
 
 Active contributor to the AI agent ecosystem:
 
-- **[OpenClaw](https://github.com/openclaw/openclaw)** — 10 merged PRs, 60+ submitted (cron system, compaction, channel plugins, billing, web search)
+- **[OpenClaw](https://github.com/openclaw/openclaw)** — 12 merged PRs, 67+ submitted (cron system, compaction, channel plugins, billing, web search)
+- **[Mastra](https://github.com/mastra-ai/mastra)** — Schema validation fixes: original schema fallback, null stripping, parallel workflow runId
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — MCP readOnlyHint plan mode (merged ✅), Windows path fix, ACP plan mode, PDF fallback
+- **[Vercel AI SDK](https://github.com/vercel/ai)** — Google provider: map `strict: true` to Gemini VALIDATED function calling mode
 - **[Goose](https://github.com/block/goose)** — MCP tool call crash fix (merged ✅)
 - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — OAuth MCP server discovery fix
 - **[awesome-code-agents](https://github.com/sorrycc/awesome-code-agents)** — Added Qwen Code entry
