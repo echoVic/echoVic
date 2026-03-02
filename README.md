@@ -31,7 +31,24 @@ A modular toolkit for building, running, and shipping AI coding agents.
 | [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow |
 | [learning-system-skill](https://github.com/echoVic/learning-system-skill) | AI learning system — knowledge graphs, deep-dive notes, and weekly reviews |
 
+## 🧩 Recent Work (2026-03)
+
 ## 🌍 Open Source Contributions
+
+A quick snapshot of what I’ve shipped recently (hands-on bugfixes + UX polish):
+
+- **OpenClaw**
+  - Plugin hooks: `message_sending` now runs for plugin-dispatched `send` actions (fixes a regression for output transforms).
+  - Control UI: cron editor form is scrollable when it exceeds viewport height.
+  - Docs: added a troubleshooting note for duplicate plugin id warnings during gateway restart.
+  - Telegram: external reply context + media handling fixes for debounced/batched flows.
+
+- **Qwen Code**
+  - Multiple CLI/tooling bugfixes (PDF fallback, shell aliases, whitespace trimming, argument normalization).
+
+- **Goose / Codex / Gemini CLI / OpenCode**
+  - Small but sharp fixes across MCP/tool-call reliability and edge cases.
+
 
 Active contributor to the AI agent ecosystem:
 
