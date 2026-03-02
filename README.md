@@ -31,8 +31,6 @@ A modular toolkit for building, running, and shipping AI coding agents.
 | [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow |
 | [learning-system-skill](https://github.com/echoVic/learning-system-skill) | AI learning system — knowledge graphs, deep-dive notes, and weekly reviews |
 
-## 🧩 Recent Work (2026-03)
-
 ## 🌍 Open Source Contributions
 
 A quick snapshot of what I’ve shipped recently (hands-on bugfixes + UX polish):
