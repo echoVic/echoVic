@@ -16,6 +16,7 @@
 | Project | What it is |
 |---------|------------|
 | [教员 · jiaoyuan.app](https://jiaoyuan.app) | A viral public product for classic quote cards and AI conversations around historical works |
+| [Markdown2X](https://markdown2x.com) | Productized Markdown-to-X Articles workflow for writers and makers |
 | [Orca / blade-deepseek](https://github.com/echoVic/blade-deepseek) | DeepSeek-native coding agent written in Rust |
 | [boss-skill](https://github.com/echoVic/boss-skill) | BMAD multi-agent orchestration workflow for Claude Code, Cursor, and Trae |
 | [blade-code](https://github.com/echoVic/blade-code) | CLI + Web coding agent with built-in tools, MCP support, and multi-model routing |
@@ -39,7 +40,7 @@ A modular toolkit for building, running, and shipping AI coding agents.
 | [boss-skill](https://github.com/echoVic/boss-skill) | BMAD-style multi-agent workflow for planning, execution, QA, and delivery |
 | [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow for Claude Code skills |
 | [stop-protocol](https://github.com/echoVic/stop-protocol) | Skill transparency and observability protocol for agent workflows |
-| [x-article-md](https://github.com/echoVic/x-article-md) | Markdown preview and copy tool for publishing long-form X Articles |
+| [Markdown2X / x-article-md](https://markdown2x.com) | A product for previewing, formatting, and publishing long-form X Articles from Markdown |
 | [new-api-toolkit](https://github.com/echoVic/new-api-toolkit) | Practical toolkit for New API dashboards, logs, and API clients |
 | [qqmail-organizer](https://github.com/echoVic/qqmail-organizer) | Safe QQ Mail inbox organizer skill with dry-run planning |
 
