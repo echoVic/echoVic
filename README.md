@@ -9,7 +9,16 @@
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Web](https://img.shields.io/badge/-Web-E34F26?style=flat-square&logo=html5&logoColor=white)
 
-> Building quality engineering agents at ByteDance – GUI testing, unit test agents, and developer self-test agents.
+> Building AI coding agents, agent runtimes, and real products that turn research-grade workflows into usable tools.
+
+## 🚀 Featured Work
+
+| Project | What it is |
+|---------|------------|
+| [教员 · jiaoyuan.app](https://jiaoyuan.app) | A viral public product for classic quote cards and AI conversations around historical works |
+| [Orca / blade-deepseek](https://github.com/echoVic/blade-deepseek) | DeepSeek-native coding agent written in Rust |
+| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD multi-agent orchestration workflow for Claude Code, Cursor, and Trae |
+| [blade-code](https://github.com/echoVic/blade-code) | CLI + Web coding agent with built-in tools, MCP support, and multi-model routing |
 
 ## 🗡️ Blade Ecosystem
 
@@ -17,52 +26,48 @@ A modular toolkit for building, running, and shipping AI coding agents.
 
 | Project | Description |
 |---------|-------------|
-| [blade-code](https://github.com/echoVic/blade-code) | CLI + Web coding agent with 20+ built-in tools, MCP support, and multi-model routing |
-| [blade-agent-sdk](https://github.com/echoVic/blade-agent-sdk) | Flexible TypeScript SDK — the core engine extracted from blade-code for standalone use |
-| [blade-cowork](https://github.com/echoVic/blade-cowork) | Desktop app (Tauri 2 + React) for collaborative AI-assisted coding |
-| [blade-agent-runtime](https://github.com/echoVic/blade-agent-runtime) | Sandboxed agent runtime with git worktree isolation and web audit panel |
+| [blade-deepseek](https://github.com/echoVic/blade-deepseek) | Orca, a DeepSeek-native coding agent focused on terminal-first developer workflows |
+| [blade-code](https://github.com/echoVic/blade-code) | AI-powered CLI coding agent with 20+ built-in tools, MCP support, and multi-model providers |
+| [blade-agent-sdk](https://github.com/echoVic/blade-agent-sdk) | TypeScript SDK for building agent loops, tools, memory, and model-provider adapters |
+| [blade-agent-runtime](https://github.com/echoVic/blade-agent-runtime) | Safe execution runtime with git worktree isolation, step ledger, and policy controls |
+| [blade-cowork-releases](https://github.com/echoVic/blade-cowork-releases) | Release channel for the Blade Cowork desktop app |
 
-## 🔧 Other Projects
+## 🧰 Agent Skills & Developer Tools
 
 | Project | Description |
 |---------|-------------|
-| [stop-protocol](https://github.com/echoVic/stop-protocol) | STOP — Agent Skill observability protocol (Manifest + Trace + Assertions + Levels) |
-| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD multi-agent orchestration framework |
-| [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow |
-| [learning-system-skill](https://github.com/echoVic/learning-system-skill) | AI learning system — knowledge graphs, deep-dive notes, and weekly reviews |
+| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD-style multi-agent workflow for planning, execution, QA, and delivery |
+| [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow for Claude Code skills |
+| [stop-protocol](https://github.com/echoVic/stop-protocol) | Skill transparency and observability protocol for agent workflows |
+| [x-article-md](https://github.com/echoVic/x-article-md) | Markdown preview and copy tool for publishing long-form X Articles |
+| [new-api-toolkit](https://github.com/echoVic/new-api-toolkit) | Practical toolkit for New API dashboards, logs, and API clients |
+| [qqmail-organizer](https://github.com/echoVic/qqmail-organizer) | Safe QQ Mail inbox organizer skill with dry-run planning |
 
 ## 🌍 Open Source Contributions
 
-A quick snapshot of what I’ve shipped recently (hands-on bugfixes + UX polish):
+A quick snapshot of recent hands-on bugfixes and ecosystem work:
 
 - **OpenClaw**
-  - Plugin hooks: `message_sending` now runs for plugin-dispatched `send` actions (fixes a regression for output transforms).
-  - Control UI: cron editor form is scrollable when it exceeds viewport height.
-  - Docs: added a troubleshooting note for duplicate plugin id warnings during gateway restart.
-  - Telegram: external reply context + media handling fixes for debounced/batched flows.
-
+  - Plugin hooks, cron editor UX, plugin diagnostics, Telegram media and reply-context fixes.
 - **Qwen Code**
-  - Multiple CLI/tooling bugfixes (PDF fallback, shell aliases, whitespace trimming, argument normalization).
-
+  - CLI/tooling fixes around PDF fallback, shell aliases, whitespace trimming, and argument normalization.
 - **Goose / Codex / Gemini CLI / OpenCode**
-  - Small but sharp fixes across MCP/tool-call reliability and edge cases.
-
+  - Small reliability fixes around MCP, tool calls, OAuth discovery, and edge-case handling.
 
 Active contributor to the AI agent ecosystem:
 
-- **[OpenClaw](https://github.com/openclaw/openclaw)** — 12 merged PRs, 67+ submitted (cron system, compaction, channel plugins, billing, web search)
-- **[Mastra](https://github.com/mastra-ai/mastra)** — Schema validation fixes: original schema fallback, null stripping, parallel workflow runId
-- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — MCP readOnlyHint plan mode (merged ✅), Windows path fix, ACP plan mode, PDF fallback
-- **[Vercel AI SDK](https://github.com/vercel/ai)** — Google provider: map `strict: true` to Gemini VALIDATED function calling mode
-- **[Goose](https://github.com/block/goose)** — MCP tool call crash fix (merged ✅)
+- **[OpenClaw](https://github.com/openclaw/openclaw)** — cron system, compaction, channel plugins, billing, and web search work
+- **[Mastra](https://github.com/mastra-ai/mastra)** — schema validation and workflow run fixes
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — MCP readOnlyHint plan mode, Windows path handling, ACP plan mode, PDF fallback
+- **[Vercel AI SDK](https://github.com/vercel/ai)** — Google provider function-calling behavior
+- **[Goose](https://github.com/block/goose)** — MCP tool-call crash fix
 - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — OAuth MCP server discovery fix
-- **[awesome-code-agents](https://github.com/sorrycc/awesome-code-agents)** — Added Qwen Code entry
 
 ## ✍️ Writing
 
-I write about agent architecture, tool design, and developer experience on [echovic.com](https://echovic.com) and [掘金](https://juejin.cn/user/echoVic).
+I write about agent architecture, tool design, developer experience, and the craft of building useful AI products on [echovic.com](https://echovic.com) and [掘金](https://juejin.cn/user/echoVic).
 
-Recent topics: MCP client implementation, agent security models, multi-model architecture, STOP observability protocol, vibe coding.
+Recent topics: MCP client implementation, agent security models, multi-model architecture, STOP observability protocol, vibe coding, and shipping products with agents.
 
 ## Connect
 
