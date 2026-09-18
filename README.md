@@ -32,11 +32,10 @@ The TypeScript side of the same work: [blade-code](https://github.com/echoVic/bl
 
 ## ✍️ Latest posts
 
-<!-- BLOG-POST-LIST:START -->
-- [给 Agent 加了子代理，为什么它还是一直自己读代码？](https://www.echovic.com/blog/ai/orca-subagent-delegation-convergence/) · 2026-09-14
+<!-- BLOG-POST-LIST:START -->- [给 Agent 加了子代理，为什么它还是一直自己读代码？](https://www.echovic.com/blog/ai/orca-subagent-delegation-convergence/) · 2026-09-14
 - [按了 Esc 没反应：一个侧问怎么会锁死主任务](https://www.echovic.com/blog/ai/blade-code-side-question-cancellation-ownership/) · 2026-09-12
 - [放宽权限的那一刻，正在跑的工具该不该变强？](https://www.echovic.com/blog/ai/orca-full-access-live-transition/) · 2026-09-12
-- [权限系统真正要证明的，不是"允许"，而是"在哪个边界内执行"](https://www.echovic.com/blog/ai/orca-capability-kernel-sandbox-refactor/) · 2026-08-30
+- [权限系统真正要证明的，不是“允许”，而是“在哪个边界内执行”](https://www.echovic.com/blog/ai/orca-capability-kernel-sandbox-refactor/) · 2026-08-30
 - [当代码不再是瓶颈，研发流程就该重做一遍](https://www.echovic.com/blog/architecture-design/when-code-is-no-longer-the-bottleneck/) · 2026-08-27
 <!-- BLOG-POST-LIST:END -->
 
