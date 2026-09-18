@@ -2,78 +2,57 @@
 
 📍 **Guangzhou** | 🤖 **Agent Developer** | 🏢 **ByteDance**
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Web](https://img.shields.io/badge/-Web-E34F26?style=flat-square&logo=html5&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Electron](https://img.shields.io/badge/-Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 
-> Building AI coding agents, agent runtimes, and real products that turn research-grade workflows into usable tools.
+> I build coding agents and the tools around them, then write down what breaks.
 
-## 🚀 Featured Work
+## 🔭 Now
+
+- **[Orca](https://orcaagent.dev)** — a DeepSeek-native coding agent for the terminal. Rust, MIT, `npm i -g @blade-ai/orca`.
+- **[Pilion Browser](https://github.com/echoVic/pilion-browser)** — a desktop browser that pairs web pages with local or remote agents over the [Agent Client Protocol](https://agentclientprotocol.com). Listed in the official [ACP clients directory](https://agentclientprotocol.com/get-started/clients).
+- Writing about agent internals on [echovic.com](https://echovic.com): permissions, sub-agents, cancellation, runtime boundaries.
+
+## 🚀 Featured
 
 | Project | What it is |
 |---------|------------|
-| [教员 · jiaoyuan.app](https://jiaoyuan.app) | A viral public product for classic quote cards and AI conversations around historical works |
-| [Markdown2X](https://markdown2x.com) | Productized Markdown-to-X Articles workflow for writers and makers |
-| [Orca / blade-deepseek](https://github.com/echoVic/blade-deepseek) | DeepSeek-native coding agent written in Rust |
-| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD multi-agent orchestration workflow for Claude Code, Cursor, and Trae |
-| [blade-code](https://github.com/echoVic/blade-code) | CLI + Web coding agent with built-in tools, MCP support, and multi-model routing |
+| [orca-agent](https://github.com/echoVic/orca-agent) | DeepSeek-native terminal coding agent. TUI for interactive work, `orca exec` for scripts and CI, persistent goal and workflow mode, prefix-cache-friendly prompts. Docs in 7 languages · [orcaagent.dev](https://orcaagent.dev) |
+| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD-style multi-agent delivery pipeline (PM → Architect → Dev → QA → DevOps) with an event-sourced runtime and non-bypassable quality gates. Works with Claude Code, Codex, OpenClaw, Antigravity and Hermes |
+| [pilion-browser](https://github.com/echoVic/pilion-browser) | Desktop browser for ACP agents: tabs and history on the left, the page in the middle, your agent on the right. macOS, Windows and Linux builds |
+| [图文工厂 · tietulab.com](https://tietulab.com) | AI image-and-text generator for 小红书 / 微信 / 抖音 creators: one sentence in; topic, 3:4 cards, title, tags and post copy out |
+| [Markdown2X](https://markdown2x.com) | Preview, format and publish long-form X Articles from Markdown ([x-article-md](https://github.com/echoVic/x-article-md)) |
 
-## 🗡️ Blade Ecosystem
+## 🗡️ Blade
 
-A modular toolkit for building, running, and shipping AI coding agents.
+The TypeScript side of the same work: [blade-code](https://github.com/echoVic/blade-code), a CLI + Web + headless coding agent (`npm i -g blade-code`), and [blade-agent-sdk](https://github.com/echoVic/blade-agent-sdk), a session-first agent SDK for Node.js (`@blade-ai/agent-sdk`).
 
-| Project | Description |
-|---------|-------------|
-| [blade-deepseek](https://github.com/echoVic/blade-deepseek) | Orca, a DeepSeek-native coding agent focused on terminal-first developer workflows |
-| [blade-code](https://github.com/echoVic/blade-code) | AI-powered CLI coding agent with 20+ built-in tools, MCP support, and multi-model providers |
-| [blade-agent-sdk](https://github.com/echoVic/blade-agent-sdk) | TypeScript SDK for building agent loops, tools, memory, and model-provider adapters |
-| [blade-agent-runtime](https://github.com/echoVic/blade-agent-runtime) | Safe execution runtime with git worktree isolation, step ledger, and policy controls |
-| [blade-cowork-releases](https://github.com/echoVic/blade-cowork-releases) | Release channel for the Blade Cowork desktop app |
+## ✍️ Latest posts
 
-## 🧰 Agent Skills & Developer Tools
+<!-- BLOG-POST-LIST:START -->
+- [给 Agent 加了子代理，为什么它还是一直自己读代码？](https://www.echovic.com/blog/ai/orca-subagent-delegation-convergence/) · 2026-09-14
+- [按了 Esc 没反应：一个侧问怎么会锁死主任务](https://www.echovic.com/blog/ai/blade-code-side-question-cancellation-ownership/) · 2026-09-12
+- [放宽权限的那一刻，正在跑的工具该不该变强？](https://www.echovic.com/blog/ai/orca-full-access-live-transition/) · 2026-09-12
+- [权限系统真正要证明的，不是"允许"，而是"在哪个边界内执行"](https://www.echovic.com/blog/ai/orca-capability-kernel-sandbox-refactor/) · 2026-08-30
+- [当代码不再是瓶颈，研发流程就该重做一遍](https://www.echovic.com/blog/architecture-design/when-code-is-no-longer-the-bottleneck/) · 2026-08-27
+<!-- BLOG-POST-LIST:END -->
 
-| Project | Description |
-|---------|-------------|
-| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD-style multi-agent workflow for planning, execution, QA, and delivery |
-| [spec-flow](https://github.com/echoVic/spec-flow) | Spec-driven development workflow for Claude Code skills |
-| [stop-protocol](https://github.com/echoVic/stop-protocol) | Skill transparency and observability protocol for agent workflows |
-| [Markdown2X / x-article-md](https://markdown2x.com) | A product for previewing, formatting, and publishing long-form X Articles from Markdown |
-| [new-api-toolkit](https://github.com/echoVic/new-api-toolkit) | Practical toolkit for New API dashboards, logs, and API clients |
-| [qqmail-organizer](https://github.com/echoVic/qqmail-organizer) | Safe QQ Mail inbox organizer skill with dry-run planning |
+More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
-## 🌍 Open Source Contributions
+## 🌍 Upstream contributions
 
-A quick snapshot of recent hands-on bugfixes and ecosystem work:
-
-- **OpenClaw**
-  - Plugin hooks, cron editor UX, plugin diagnostics, Telegram media and reply-context fixes.
-- **Qwen Code**
-  - CLI/tooling fixes around PDF fallback, shell aliases, whitespace trimming, and argument normalization.
-- **Goose / Codex / Gemini CLI / OpenCode**
-  - Small reliability fixes around MCP, tool calls, OAuth discovery, and edge-case handling.
-
-Active contributor to the AI agent ecosystem:
-
-- **[OpenClaw](https://github.com/openclaw/openclaw)** — cron system, compaction, channel plugins, billing, and web search work
-- **[Mastra](https://github.com/mastra-ai/mastra)** — schema validation and workflow run fixes
-- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — MCP readOnlyHint plan mode, Windows path handling, ACP plan mode, PDF fallback
-- **[Vercel AI SDK](https://github.com/vercel/ai)** — Google provider function-calling behavior
-- **[Goose](https://github.com/block/goose)** — MCP tool-call crash fix
-- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — OAuth MCP server discovery fix
-
-## ✍️ Writing
-
-I write about agent architecture, tool design, developer experience, and the craft of building useful AI products on [echovic.com](https://echovic.com) and [掘金](https://juejin.cn/user/echoVic).
-
-Recent topics: MCP client implementation, agent security models, multi-model architecture, STOP observability protocol, vibe coding, and shipping products with agents.
+- **[OpenClaw](https://github.com/openclaw/openclaw)** — 18 merged PRs: Feishu/Lark tools and error handling, systemd update safety, Telegram DM policy docs, AGENTS.md template fixes
+- **[agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol)** — Pilion Browser added to the clients directory
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — MCP `readOnlyHint` annotation support in plan mode
+- **[Mastra](https://github.com/mastra-ai/mastra)** — unique `runId` per parallel workflow tool call
+- Orca listed in **[awesome-agents](https://github.com/kyrolabs/awesome-agents)**
 
 ## Connect
 
 [![Website](https://img.shields.io/badge/-echovic.com-000000?style=flat-square&logo=safari&logoColor=white)](https://echovic.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/echoVic)
 [![X/Twitter](https://img.shields.io/badge/-X/Twitter-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/echo_vic)
 
 ---
