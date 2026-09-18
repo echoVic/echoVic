@@ -23,7 +23,7 @@
 | [orca-agent](https://github.com/echoVic/orca-agent) | DeepSeek-native terminal coding agent. TUI for interactive work, `orca exec` for scripts and CI, persistent goal and workflow mode, prefix-cache-friendly prompts. Docs in 7 languages · [orcaagent.dev](https://orcaagent.dev) |
 | [boss-skill](https://github.com/echoVic/boss-skill) | BMAD-style multi-agent delivery pipeline (PM → Architect → Dev → QA → DevOps) with an event-sourced runtime and non-bypassable quality gates. Works with Claude Code, Codex, OpenClaw, Antigravity and Hermes |
 | [pilion-browser](https://github.com/echoVic/pilion-browser) | Desktop browser for ACP agents: tabs and history on the left, the page in the middle, your agent on the right. macOS, Windows and Linux builds |
-| [教员 · jiaoyuan.app](https://jiaoyuan.app) | Quote cards drawn from 教员's complete works, plus an AI dialogue that applies his dialectical method to everyday dilemmas. Accounts, credits and content moderation built in; runs on Cloudflare Workers |
+| [教员 · jiaoyuan.app](https://jiaoyuan.app) | 遇事不决问教员：基于教员全部作品的经典语录卡片与 AI 对话，用辩证方法论帮你理清职场、人生与重大决策中的实际困惑。内置账号、积分与内容审核，运行在 Cloudflare Workers 上 |
 | [图文工厂 · tietulab.com](https://tietulab.com) | AI image-and-text generator for 小红书 / 微信 / 抖音 creators: one sentence in; topic, 3:4 cards, title, tags and post copy out |
 | [Markdown2X](https://markdown2x.com) | Preview, format and publish long-form X Articles from Markdown ([x-article-md](https://github.com/echoVic/x-article-md)) |
 
