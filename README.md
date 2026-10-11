@@ -7,6 +7,7 @@
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Electron](https://img.shields.io/badge/-Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 > I build coding agents and the tools around them, then write down what breaks.
 
@@ -30,6 +31,13 @@
 ## 🗡️ Blade
 
 The TypeScript side of the same work: [blade-code](https://github.com/echoVic/blade-code), a CLI + Web + headless coding agent (`npm i -g blade-code`), and [blade-agent-sdk](https://github.com/echoVic/blade-agent-sdk), a session-first agent SDK for Node.js (`@blade-ai/agent-sdk`).
+
+## 🍃 Mac apps
+
+Small native Mac apps written in Go on [MyGo](https://github.com/egoist/mygo). Downloads are on each repo's Releases page.
+
+- **[Cleanzo](https://github.com/echoVic/cleanzo)** — a safety-first macOS cleaner: rule-based junk cleanup, disk space analysis, large files, similar photos and an app uninstaller. About 8 MB.
+- **[小海底 · Little Reef](https://github.com/echoVic/little-reef)** — 用专注时间养出一片小海底：番茄钟、会慢慢长大的水族馆、偶尔来访的鱼，还有 20 种公共领域的实录背景音。
 
 ## ✍️ Latest posts
 
