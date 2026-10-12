@@ -42,11 +42,11 @@ Small native Mac apps written in Go on [MyGo](https://github.com/egoist/mygo). D
 ## ✍️ Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Orca 的终端界面太生硬，我把它重做了一遍](https://www.echovic.com/blog/ai/orca-tui-redesign-v050-retrospective/) · 2026-09-28
-- [Jev：一个故意不聊天的 AI 模型，和它在 Agent 里的位置](https://www.echovic.com/blog/ai/jev-system-one-decision-layer/) · 2026-09-20
-- [给 Agent 加了子代理，为什么它还是一直自己读代码？](https://www.echovic.com/blog/ai/orca-subagent-delegation-convergence/) · 2026-09-14
-- [按了 Esc 没反应：一个侧问怎么会锁死主任务](https://www.echovic.com/blog/ai/blade-code-side-question-cancellation-ownership/) · 2026-09-12
-- [放宽权限的那一刻，正在跑的工具该不该变强？](https://www.echovic.com/blog/ai/orca-full-access-live-transition/) · 2026-09-12<!-- BLOG-POST-LIST:END -->
+- [状态栏显示还剩 33%，请求却超了上下文上限](https://www.echovic.com/blog/ai/orca-context-budget-reply-reservation/) · 2026-10-12
+- [沙箱挡住了 git mv，模型转头用了 mv](https://www.echovic.com/blog/ai/orca-git-write-sandbox-approval/) · 2026-10-12
+- [跑 Terminal-Bench 时，Agent 把自己 kill -9 了](https://www.echovic.com/blog/ai/orca-terminal-bench-self-kill/) · 2026-10-12
+- [录一段网页操作给 Agent：打的字从四个地方漏进了文件](https://www.echovic.com/blog/ai/pilion-recording-typed-text-leaks/) · 2026-10-12
+- [做 Mac 清理工具，难的是证明这些文件没人在用](https://www.echovic.com/blog/architecture-design/cleanzo-mac-cleaner-safety/) · 2026-10-12<!-- BLOG-POST-LIST:END -->
 
 More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
