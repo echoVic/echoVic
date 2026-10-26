@@ -42,11 +42,11 @@ Small native Mac apps written in Go on [MyGo](https://github.com/egoist/mygo). D
 ## ✍️ Latest posts
 
 <!-- BLOG-POST-LIST:START -->
-- [做 Mac 清理工具，难的是证明这些文件没人在用](https://www.echovic.com/blog/architecture-design/cleanzo-mac-cleaner-safety/) · 2026-10-12
-- [状态栏显示还剩 33%，请求却超了上下文上限](https://www.echovic.com/blog/ai/orca-context-budget-reply-reservation/) · 2026-10-12
-- [沙箱挡住了 git mv，模型转头用了 mv](https://www.echovic.com/blog/ai/orca-git-write-sandbox-approval/) · 2026-10-12
-- [跑 Terminal-Bench 时，Agent 把自己 kill -9 了](https://www.echovic.com/blog/ai/orca-terminal-bench-self-kill/) · 2026-10-12
-- [录一段网页操作给 Agent：打的字从四个地方漏进了文件](https://www.echovic.com/blog/ai/pilion-recording-typed-text-leaks/) · 2026-10-12<!-- BLOG-POST-LIST:END -->
+- [我让 Codex 在 Windows 虚拟机里替我测了一晚上](https://www.echovic.com/blog/ai/codex-windows-vm-qa-night) · 2026-10-25
+- [状态栏显示还剩 33%，请求却超了上下文上限](https://www.echovic.com/blog/ai/orca-context-budget-reply-reservation) · 2026-10-12
+- [沙箱挡住了 git mv，模型转头用了 mv](https://www.echovic.com/blog/ai/orca-git-write-sandbox-approval) · 2026-10-12
+- [跑 Terminal-Bench 时，Agent 把自己 kill -9 了](https://www.echovic.com/blog/ai/orca-terminal-bench-self-kill) · 2026-10-12
+- [录一段网页操作给 Agent：打的字从四个地方漏进了文件](https://www.echovic.com/blog/ai/pilion-recording-typed-text-leaks) · 2026-10-12<!-- BLOG-POST-LIST:END -->
 
 More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
