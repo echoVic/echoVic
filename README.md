@@ -42,11 +42,11 @@ Small native Mac apps written in Go on [MyGo](https://github.com/egoist/mygo). D
 ## ✍️ Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Cleanzo 0.3.0 开发复盘：从「有点慢、会闪」到原生菜单栏面板](https://www.echovic.com/blog/ai/cleanzo-030-native-menubar-retrospective) · 2026-10-31
 - [给 Agent 建一套能力评测：先把「不会」和「没时间」分开](https://www.echovic.com/blog/ai/orca-capability-evaluation) · 2026-10-30
 - [截图里明明有字，OCR 为什么返回空？](https://www.echovic.com/blog/ai/clipnest-v018-ocr-retrospective) · 2026-10-29
 - [留白 0.6.7 开发复盘：全文搜索、双链和取消跳转](https://www.echovic.com/blog/architecture-design/liubai-067-retrospective) · 2026-10-29
-- [Computer Use 每轮 40 个工具错误，都出在哪里](https://www.echovic.com/blog/ai/orca-computer-use-acceptance-harness) · 2026-10-26
-- [让 Agent 去开个文件夹，它用了我自己开着的 Finder 窗口](https://www.echovic.com/blog/ai/orca-computer-use-window-boundary) · 2026-10-26<!-- BLOG-POST-LIST:END -->
+- [Computer Use 每轮 40 个工具错误，都出在哪里](https://www.echovic.com/blog/ai/orca-computer-use-acceptance-harness) · 2026-10-26<!-- BLOG-POST-LIST:END -->
 
 More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
