@@ -15,18 +15,22 @@
 
 - **[Orca](https://orcaagent.dev)** — a DeepSeek-native coding agent for the terminal. Rust, MIT, `npm i -g @blade-ai/orca`.
 - **[Pilion Browser](https://github.com/echoVic/pilion-browser)** — a desktop browser that pairs web pages with local or remote agents over the [Agent Client Protocol](https://agentclientprotocol.com). Listed in the official [ACP clients directory](https://agentclientprotocol.com/get-started/clients).
-- Writing about agent internals on [echovic.com](https://echovic.com): permissions, sub-agents, cancellation, runtime boundaries.
+- **Native Mac apps on [MyGo](https://github.com/egoist/mygo)** — Cleanzo, Clipnest, 留白 and 小海底 are Go apps with native windows; 14 PRs of framework fixes and docs are merged upstream.
+- **[dsh-usage-stats](https://github.com/echoVic/dsh-usage-stats)** — turns the session log into token, cost and tool-time accounting for the DeepSeek Harness web shell.
+- Writing agent internals on [echovic.com](https://echovic.com): source-code handbooks for [Codex](https://www.echovic.com/handbook/codex-internals), [pi](https://www.echovic.com/handbook/pi-internals) and [DeepSeek Harness](https://www.echovic.com/handbook/deepseek-harness-internals), plus postmortems like the Orca result-protocol fix.
 
 ## 🚀 Featured
 
 | Project | What it is |
 |---------|------------|
 | [orca-agent](https://github.com/echoVic/orca-agent) | DeepSeek-native terminal coding agent. TUI for interactive work, `orca exec` for scripts and CI, persistent goal and workflow mode, prefix-cache-friendly prompts. Docs in 7 languages · [orcaagent.dev](https://orcaagent.dev) |
-| [boss-skill](https://github.com/echoVic/boss-skill) | BMAD-style multi-agent delivery pipeline (PM → Architect → Dev → QA → DevOps) with an event-sourced runtime and non-bypassable quality gates. Works with Claude Code, Codex, OpenClaw, Antigravity and Hermes |
+| [boss-skill](https://github.com/echoVic/boss-skill) | Expert-squad pipeline for coding agents: PM, Architect, UI, Tech Lead, Scrum, FE, BE, QA and DevOps, with hard quality contracts, replayable `.boss/` artifacts and an auto-continuation chain. Works with Claude Code, Codex, OpenClaw, Antigravity and Hermes |
 | [pilion-browser](https://github.com/echoVic/pilion-browser) | Desktop browser for ACP agents: tabs and history on the left, the page in the middle, your agent on the right. macOS, Windows and Linux builds |
 | [教员 · jiaoyuan.app](https://jiaoyuan.app) | 遇事不决问教员：基于教员全部作品的经典语录卡片与 AI 对话，用辩证方法论帮你理清职场、人生与重大决策中的实际困惑。内置账号、积分与内容审核，运行在 Cloudflare Workers 上 |
 | [图文工厂 · tietulab.com](https://tietulab.com) | AI image-and-text generator for 小红书 / 微信 / 抖音 creators: one sentence in; topic, 3:4 cards, title, tags and post copy out |
 | [Markdown2X](https://markdown2x.com) | Preview, format and publish long-form X Articles from Markdown ([x-article-md](https://github.com/echoVic/x-article-md)) |
+
+*Full project list, with stars and recent commit activity: [echovic.com/projects](https://echovic.com/projects).*
 
 ## 🗡️ Blade
 
@@ -34,10 +38,14 @@ The TypeScript side of the same work: [blade-code](https://github.com/echoVic/bl
 
 ## 🍃 Mac apps
 
-Small native Mac apps written in Go on [MyGo](https://github.com/egoist/mygo). Downloads are on each repo's Releases page.
+Small native apps written in Go on [MyGo](https://github.com/egoist/mygo). Downloads are on each repo's Releases page.
 
-- **[Cleanzo](https://github.com/echoVic/cleanzo)** — a safety-first macOS cleaner: rule-based junk cleanup, disk space analysis, large files, similar photos and an app uninstaller. About 8 MB.
+- **[Cleanzo](https://github.com/echoVic/cleanzo)** — a safety-first macOS cleaner: rule-based junk cleanup, disk space analysis, large files, similar photos, an app uninstaller, and app updates as of 0.4. About 8 MB.
+- **[Clipnest](https://github.com/echoVic/clipnest)** — keyboard-first clipboard history (⌘⇧V): 1–9 / arrows / scroll to pick, SQLite-backed search across text, code, links and images, snippets and per-app exclusions. macOS and Windows.
+- **[留白 · Liubai](https://github.com/echoVic/liubai)** — 极简的 Markdown 写作桌：11 套主题、表格与图片、公式和图表、双链与全文搜索，导出 PDF / Word / HTML；免费开源，Windows 内测中。
 - **[小海底 · Little Reef](https://github.com/echoVic/little-reef)** — 用专注时间养出一片小海底：番茄钟、会慢慢长大的水族馆、偶尔来访的鱼，还有 20 种公共领域的实录背景音。
+
+The ecosystem around them: **[awesome-mygo-apps](https://github.com/echoVic/awesome-mygo-apps)** — 33 apps and UI libraries, each verified against its `go.mod`.
 
 ## ✍️ Latest posts
 
@@ -50,9 +58,12 @@ Small native Mac apps written in Go on [MyGo](https://github.com/egoist/mygo). D
 
 More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
+📖 Long-form: **[给 Vibe Coder 的设计模式](https://github.com/echoVic/design-patterns-for-vibe-coders)** — 17 chapters + 2 appendices on telling which abstractions in AI-written code are worth keeping (HTML / PDF / Markdown).
+
 ## 🌍 Upstream contributions
 
 - **[OpenClaw](https://github.com/openclaw/openclaw)** — 18 merged PRs: Feishu/Lark tools and error handling, systemd update safety, Telegram DM policy docs, AGENTS.md template fixes
+- **[MyGo](https://github.com/egoist/mygo)** — 14 merged PRs: Windows clipboard formats, named Tester click validation, UI docs and CLI delta baseline fixes
 - **[agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol)** — Pilion Browser added to the clients directory
 - **[Qwen Code](https://github.com/QwenLM/qwen-code)** — MCP `readOnlyHint` annotation support in plan mode
 - **[Mastra](https://github.com/mastra-ai/mastra)** — unique `runId` per parallel workflow tool call
