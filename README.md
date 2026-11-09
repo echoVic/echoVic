@@ -50,11 +50,11 @@ The ecosystem around them: **[awesome-mygo-apps](https://github.com/echoVic/awes
 ## ✍️ Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [给 Coding Agent 加一颗「后悔药」：/rewind 的工程复盘](https://www.echovic.com/blog/ai/orca-rewind-checkpoints-retrospective) · 2026-11-09
 - [Cleanzo 0.5.0：本地模型、agent 会话和缓存，分开算清楚](https://www.echovic.com/blog/ai/cleanzo-050-ai-space) · 2026-11-07
 - [Agent 共用一个浏览器时，怎么隔离标签 ACL：Pilion Agent Spaces](https://www.echovic.com/blog/ai/pilion-agent-spaces) · 2026-11-06
 - [agent-desktop 深度解析：不截图，也能让 Agent 操控桌面](https://www.echovic.com/blog/ai/agent-desktop-deep-dive) · 2026-11-04
-- [写入全部失败，Agent 却返回成功：Orca 的一次结果协议修复](https://www.echovic.com/blog/ai/orca-exec-blocked-outcome) · 2026-11-02
-- [Cleanzo 0.3.0 开发复盘：从「有点慢、会闪」到原生菜单栏面板](https://www.echovic.com/blog/ai/cleanzo-030-native-menubar-retrospective) · 2026-10-31<!-- BLOG-POST-LIST:END -->
+- [写入全部失败，Agent 却返回成功：Orca 的一次结果协议修复](https://www.echovic.com/blog/ai/orca-exec-blocked-outcome) · 2026-11-02<!-- BLOG-POST-LIST:END -->
 
 More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
