@@ -50,11 +50,11 @@ The ecosystem around them: **[awesome-mygo-apps](https://github.com/echoVic/awes
 ## ✍️ Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [从 0 到 1 搭建自己的 Coding Agent（四）：模型与 Provider，流式、前缀缓存与无状态请求](https://www.echovic.com/blog/ai/coding-agent-series-04-provider) · 2026-11-16
 - [从 0 到 1 搭建自己的 Coding Agent（三）：入口、配置与运行模式](https://www.echovic.com/blog/ai/coding-agent-series-03-entry) · 2026-11-15
 - [从 0 到 1 搭建自己的 Coding Agent（二）：Harness 是什么](https://www.echovic.com/blog/ai/coding-agent-series-02-harness) · 2026-11-14
 - [从 0 到 1 搭建自己的 Coding Agent（一）：先看清一个 Coding Agent 由哪几层组成](https://www.echovic.com/blog/ai/coding-agent-series-01-layers) · 2026-11-13
-- [CurlGo CLI：空的 --out-dir 先失败，curl 选项不再被静默丢掉（附可跑命令）](https://www.echovic.com/blog/ai/curlgo-cli-contract) · 2026-11-13
-- [在 DeepSeek Harness 里装一个接近 IDE 的工作区面板（附安装命令）](https://www.echovic.com/blog/ai/dsh-workspace-ide-panel) · 2026-11-13<!-- BLOG-POST-LIST:END -->
+- [CurlGo CLI：空的 --out-dir 先失败，curl 选项不再被静默丢掉（附可跑命令）](https://www.echovic.com/blog/ai/curlgo-cli-contract) · 2026-11-13<!-- BLOG-POST-LIST:END -->
 
 More on [echovic.com](https://echovic.com) · [RSS](https://echovic.com/rss.xml)
 
